@@ -1,0 +1,3 @@
+This repository demonstrates a common error in ActionScript 3 related to collision detection using the getBounds() method.  The `bug.as` file showcases the flawed collision detection logic, and `bugSolution.as` provides a corrected implementation.  The issue arises when DisplayObjects haven't been added to the display list; their bounds are incorrectly reported as empty, leading to false negatives in collision detection.
+
+This example highlights the importance of verifying that DisplayObjects are correctly added to the display list before performing calculations using methods like getBounds().
